@@ -1,3 +1,8 @@
+// Programa: NumerosImaginarios_Operaciones_POO.cpp
+// Realiza suma, resta, multiplicación y división entre números complejos de la forma a + bi.
+// Usa dos clases: Dat_XY (con coordenadas x, y) y una clase amiga Imaginarios para operar sobre objetos anidados.
+// Implementa constructores, destructor, funciones `friend`, y operaciones básicas de números complejos.
+
 # include <iostream>
 # include <conio.h>
 # include <math.h>
