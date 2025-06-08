@@ -1,11 +1,8 @@
 # 01_Vectores
 
-Programas que trabajan con arreglos unidimensionales (vectores) utilizando Programación Orientada a Objetos (POO) y memoria dinámica (`new` y `delete[]`).
+Programas que realizan operaciones con vectores utilizando memoria dinámica y programación orientada a objetos.
 
-## Archivos
-
-- **SumaVectores_MemoriaDinamica.cpp**  
-  Suma dos vectores flotantes introducidos por el usuario. Demuestra uso de punteros, memoria dinámica y funciones auxiliares.
-
-- **MenuVectores_POO_MemoriaDinamica.cpp**  
-  Menú interactivo que permite al usuario sumar vectores y buscar el mayor o menor valor. Usa clases, anidación de objetos, constructores, destructores y encapsulamiento.
+| Archivo                              | Descripción |
+|--------------------------------------|-------------|
+| SumaVectores_MemoriaDinamica.cpp     | Suma dos vectores flotantes introducidos por el usuario. Utiliza punteros y `new[]`. |
+| MenuVectores_POO_MemoriaDinamica.cpp | Menú que permite realizar suma de vectores y búsqueda de mayor/menor. Usa clases, constructores y memoria dinámica. |
