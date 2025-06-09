@@ -5,5 +5,5 @@ Programas que calculan el área de un triángulo usando el teorema de Herón con
 | Archivo                             | Descripción |
 |-------------------------------------|-------------|
 | AreaTriangulo_Heron_POO.cpp         | Versión principal con clases `Coordenadas` y `Triangulos`. Diseño modular y limpio. |
-| Triangulo_Area_Semiperimetro.cpp    | Alternativa compacta con una sola clase. Buen punto de partida para principiantes. |
-| AreaTriangulo_Heron_Compacto.cpp    | Versión didáctica minimalista. Ideal para introducción a POO. |
+| Triangulo_Area_Semiperimetro.cpp    | Alternativa compacta con una sola clase. |
+| AreaTriangulo_Heron_Compacto.cpp    | Versión didáctica minimalista. |
