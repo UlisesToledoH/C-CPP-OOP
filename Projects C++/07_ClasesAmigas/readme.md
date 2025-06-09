@@ -1,13 +1,9 @@
-# 07_ClasesAmigas
+# 06_ClasesAmigas
 
-Programas diseñados para ilustrar el uso de clases amigas (`friend class`) y funciones amigas (`friend function`) en C++.
+Programas que demuestran el uso de **clases amigas** en C++ mediante la palabra clave `friend class`. Una clase amiga puede acceder directamente a los miembros privados de otra clase.
 
-| Archivo                             | Descripción |
-|-------------------------------------|-------------|
-| amigaclase1.cpp                     | Muestra cómo una clase (`CALC_VECXYZ`) accede directamente a los miembros privados de otra (`Coordenadas`) gracias a la amistad. Realiza suma de vectores 3D. |
-| amigaExterna.cpp                   | Demuestra el uso de una función externa `Ver()` como `friend` de la clase `A` para acceder a miembros privados. |
-| amigaInterna.cpp                   | La función miembro `EsMayor()` de la clase `B` es `friend` de la clase `A`. Se compara un valor entre dos clases relacionadas. |
-| REPASOAMIGA.cpp                    | Aplica amistad entre clases con un puntero. Calcula el promedio de tres valores ingresados por el usuario. Muy útil para conceptos como encapsulamiento y acceso indirecto. |
-| COSA1.cpp                          | Usa una función `friend` llamada `cargar()` para modificar directamente miembros privados de un objeto. Muy claro y funcional. |
-| timefucamiga.CPP                   | Función amiga `TIME_DATE` que accede a miembros de dos clases distintas (`TIME1` y `DATE1`). Muestra cómo combinar tiempo y fecha como una sola cadena. |
-
+| Archivo                                  | Descripción |
+|------------------------------------------|-------------|
+| Vectores3D_Suma_ClaseAmiga.cpp           | Realiza la suma de dos vectores 3D. `CALC_VECXYZ` es amiga de `Coordenadas`, y accede directamente a sus atributos. |
+| Promedio_ClaseAmiga_ConPuntero.cpp       | Calcula el promedio de tres calificaciones usando amistad entre clases. La clase amiga accede al objeto `Coordenadas` por puntero. |
+| FuncionAmiga_MiembroDeOtraClase.cpp      | La función miembro `EsMayor()` de la clase `B` es amiga de la clase `A`. Permite comparar valores privados entre dos clases distintas. |
