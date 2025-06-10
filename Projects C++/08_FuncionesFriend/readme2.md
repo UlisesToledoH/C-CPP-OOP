@@ -1,6 +1,6 @@
 # 08_FuncionesFriend
 
-errores 
+errores a corregir
 Programas que aplican funciones `friend` para realizar operaciones entre objetos, sin necesidad de exponer directamente los atributos.
 
 | Archivo                             | Descripción |
