@@ -1,7 +1,7 @@
 // Programa: FuncionAmiga_Externa.cpp
 // Ejemplo simple de función amiga externa que accede a un miembro privado de una clase.
 // La función `Ver` accede directamente a la variable privada `a` de la clase `A`.
-// Se contrasta con el uso del método público `A::Ver()` para demostrar equivalencia.
+// Se contrasta con el uso del método público `A::Ver()` para demostrar equivalencia. TOLEDO
 #include <iostream>
 #include <stdlib.h>
 using namespace std;
